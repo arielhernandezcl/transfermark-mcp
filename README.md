@@ -280,4 +280,4 @@ El proyecto no tiene dependencias en tiempo de ejecución más allá de `@modelc
 
 ## Licencia
 
-[MIT](LICENSE). Los datos son propiedad de Transfermarkt y se accede a ellos respetando su política de uso (limitación de tasa, caché agresiva, User-Agent realista). Este proyecto es un envoltorio no oficial y no está afiliado a Transfermarkt.
+[MIT](LICENSE). Los datos son propiedad de Transfermarkt y se accede a ellos respetando su política de uso (limitación de tasa, caché agresiva, User-Agent realista). Este proyecto es un cliente no oficial y no está afiliado a Transfermarkt.
