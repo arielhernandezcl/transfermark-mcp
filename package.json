@@ -1,0 +1,26 @@
+{
+  "name": "transfermark-mcp",
+  "version": "0.1.0",
+  "description": "Servidor MCP local para consultar datos de Transfermarkt (jugadores, clubes, competiciones y mercado).",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "transfermark-mcp": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "cheerio": "^1.2.0",
+    "zod": "^4.6.7"
+  }
+}

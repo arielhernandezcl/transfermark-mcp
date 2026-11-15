@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "transfermark": {
+        "type": "local",
+        "command": ["bun", "run", "src/index.ts"],
+        "cwd": ".",
+        "environment": {
+          "TRANSFERMARKT_DOMAIN": "es"
+        },
+        "timeout": {
+          "startup": 30000,
+          "execution": 120000
+        }
+      }
+    }
+  }
+}
